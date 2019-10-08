@@ -1,0 +1,112 @@
+body {
+    min-height: 200vh;
+    margin: auto;
+    border: 15px solid #ffe3ea;    
+}
+
+#top, #bottom, #left, #right {
+    background: #ffe3ea;
+    position: fixed;
+}
+
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+}
+
+#left {left: 0; }
+#right {right: 0; }
+
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+}
+
+#top {top: 0; }
+#bottom { bottom: 0; }
+
+
+.logo-masthead {
+    position: fixed;
+    top: 20px;
+    left: 29px;
+}
+    
+
+.nav-links {
+    width: 50%;
+    font-size: 8.2px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    padding-top: 35px;
+    font-family: Helvetica, Arial, sans-serif
+    
+}
+
+.maturity {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    /* padding-left: 585px; */
+    padding-left: 30.76%;
+}
+
+.books {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    /* padding-left: 900px; */
+    padding-left: 42.12%;
+}
+
+.podcast {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 49.08%;
+}
+
+.workshops {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 56.5%;
+}
+
+.conversations {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 64.8%;
+}
+
+.subscribe-button {
+    height:30px;
+    width:87px;
+    position: fixed;
+    background-color: #ff0063;
+    display: inline-flex;
+    font-size: 8.5px;
+    font-weight: bold;
+    font-family: 'Archivo Narrow', sans-serif;
+    border-radius: 40px;
+    color: white;
+    margin: auto;
+    top: 4.2%;
+    right: 5.27%;
+}
+
+.subscribe-text {
+    margin: 10px 5px 15px 20px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.main-container {
+    position: absolute;
+    width: 96.95%;
+    height: 65.33%;
+    background-color: #ffe3ea;
+    top: 13.7%;
+    right: 0;
+}
