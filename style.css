@@ -1,7 +1,7 @@
 body {
-    min-height: 200vh;
+    min-height: 875vh;
     margin: auto;
-    border: 15px solid #ffe3ea;    
+    border: solid #ffe3ea;    
 }
 
 #top, #bottom, #left, #right {
@@ -11,7 +11,7 @@ body {
 
 #left, #right {
     top: 0; bottom: 0;
-    width: 15px;
+    width: 20px;
 }
 
 #left {left: 0; }
@@ -19,7 +19,7 @@ body {
 
 #top, #bottom {
     left: 0; right: 0;
-    height: 15px;
+    height: 20px;
 }
 
 #top {top: 0; }
@@ -28,17 +28,37 @@ body {
 
 .logo-masthead {
     position: fixed;
-    top: 20px;
-    left: 29px;
+    top: 7.39%;
+    left: 3.62%;
+    height: 4.55%;
+    width: 2.2%
 }
-    
+
+.design-better {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 22px;
+    top: 7.35%;
+    left: 7.5%;
+}
+
+.by-inVision {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 10px;
+    top: 11%;
+    left: 7.5%;
+}
 
 .nav-links {
     width: 50%;
-    font-size: 8.2px;
+    font-size: 12px;
     font-weight: bold;
-    letter-spacing: 0.4px;
-    padding-top: 35px;
+    /* line-height: 28px; */
+    letter-spacing: -0.1px;
+    padding-top: 4.19%;
     font-family: Helvetica, Arial, sans-serif
     
 }
@@ -47,42 +67,49 @@ body {
     position: fixed;
     display: inline-flex;
     flex-direction: row;
-    /* padding-left: 585px; */
-    padding-left: 30.76%;
+    padding-left: 26.2%;
 }
 
 .books {
     position: fixed;
     display: inline-flex;
     flex-direction: row;
-    /* padding-left: 900px; */
-    padding-left: 42.12%;
+    padding-left: 41.65%;
 }
 
 .podcast {
     position: fixed;
     display: inline-flex;
     flex-direction: row;
-    padding-left: 49.08%;
+    padding-left: 49.62%;
 }
 
 .workshops {
     position: fixed;
     display: inline-flex;
     flex-direction: row;
-    padding-left: 56.5%;
+    padding-left: 58.5%;
 }
 
 .conversations {
     position: fixed;
     display: inline-flex;
     flex-direction: row;
-    padding-left: 64.8%;
+    padding-left: 68.6%;
+}
+
+.in-logo {
+    position: fixed;
+    top: 7.7%;
+    right: 3.62%;
+    height: 4.55%;
+    width: 2.2%
+    
 }
 
 .subscribe-button {
-    height:30px;
-    width:87px;
+    height: 5.5%;
+    width: 7.6%;
     position: fixed;
     background-color: #ff0063;
     display: inline-flex;
@@ -92,21 +119,23 @@ body {
     border-radius: 40px;
     color: white;
     margin: auto;
-    top: 4.2%;
-    right: 5.27%;
+    top: 7.1%;
+    right: 8.8%;
 }
 
 .subscribe-text {
-    margin: 10px 5px 15px 20px;
+    margin: 11px 23px;
+    font-size: 12px;
     display: inline-flex;
     text-align: center;
 }
 
 .main-container {
     position: absolute;
-    width: 96.95%;
-    height: 65.33%;
+    width: 94.5%;
+    height: 84.9%;
     background-color: #ffe3ea;
-    top: 13.7%;
+    top: 23.6%;
     right: 0;
+    z-index: -1;
 }
