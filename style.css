@@ -30,8 +30,8 @@ body {
     position: fixed;
     top: 7.39%;
     left: 3.62%;
-    height: 4.55%;
-    width: 2.2%
+    height: 4.65%;
+    width: 2.24%
 }
 
 .design-better {
@@ -47,8 +47,8 @@ body {
     position: fixed;
     display: inline-flex;
     flex-direction: row;
-    font-size: 10px;
-    top: 11%;
+    font-size: 11px;
+    top: 10.8%;
     left: 7.5%;
 }
 
@@ -101,9 +101,9 @@ body {
 .in-logo {
     position: fixed;
     top: 7.7%;
-    right: 3.62%;
-    height: 4.55%;
-    width: 2.2%
+    right: 3.72%;
+    height: 4.5%;
+    width: 2.1%
     
 }
 
